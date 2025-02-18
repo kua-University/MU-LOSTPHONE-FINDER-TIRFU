@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    android:background="@drawable/jj">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Signup"
+        android:textColor="#F0EAEA"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+    android:hint="Full Name"
+    android:inputType="textPersonName"
+    android:textColor="#E7E0E0"
+    android:textColorHint="#BF9393"
+    android:background="@drawable/rounded_edittext"
+    android:padding="12dp" /> <!-- Added padding for better text alignment -->
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+    android:hint="Email"
+    android:inputType="textEmailAddress"
+    android:textColor="#EDE6E6"
+    android:textColorHint="#BF9393"
+    android:background="@drawable/rounded_edittext"
+    android:padding="12dp" /> <!-- Added padding for better text alignment -->
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:textColor="#C5ACAC"
+    android:textColorHint="#BF9393"
+    android:background="@drawable/rounded_edittext"
+    android:padding="12dp" /> <!-- Added padding for better text alignment -->
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+    android:hint="Confirm Password"
+    android:inputType="textPassword"
+    android:textColor="#C5ACAC"
+    android:textColorHint="#BF9393"
+    android:background="@drawable/rounded_edittext"
+    android:padding="12dp" /> <!-- Added padding for better text alignment -->
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
